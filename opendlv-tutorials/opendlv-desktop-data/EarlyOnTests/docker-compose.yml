@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  prime-checker-0:
+    image: registry.gitlab.com/felixwal/opendlv-logic-primechecker:1.1
+    network_mode: "host"
+    command: "/usr/bin/helloworld"
+
+  prime-checker-1:
+    image: registry.gitlab.com/felixwal/opendlv-logic-primechecker:1.1
+    network_mode: "host"
+    command: "/usr/bin/helloworld"
+
+  prime-checker-2:
+    image: registry.gitlab.com/felixwal/opendlv-logic-primechecker:1.1
+    network_mode: "host"
+    command: "/usr/bin/helloworld"

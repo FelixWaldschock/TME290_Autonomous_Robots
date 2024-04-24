@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -rdynamic CMakeFiles/OpenDLV-logic-felixwal.dir/main.cpp.o -o OpenDLV-logic-felixwal 

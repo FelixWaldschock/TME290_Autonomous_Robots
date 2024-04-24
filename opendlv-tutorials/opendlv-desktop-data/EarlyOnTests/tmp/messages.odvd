@@ -1,0 +1,9 @@
+message MyTestMessage1 [id = 1091] 
+{
+uint16 myValue [id = 1];
+}
+
+message MyTestMessage2 [id = 1046] 
+{
+    float myValue [id = 1];
+}
